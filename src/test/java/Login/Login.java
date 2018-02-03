@@ -17,7 +17,7 @@ public class Login {
 
   @BeforeClass(alwaysRun = true)
   public void setUp() throws Exception {
-	  System.out.println("Hello");
+	 
     System.setProperty("webdriver.gecko.driver", "E:\\Selenium\\Selenium_Software\\geckodriver.exe");
 	  driver = new FirefoxDriver();
     baseUrl = "http://localhost:100/";
